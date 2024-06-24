@@ -1,0 +1,28 @@
+COMMIT;
+
+-- DDL
+-- Data Definition Language 데이터 정의어
+-- 오라클의 객체를 생성, 수정, 삭제하는 명령어
+-- 명령어의 종류 : CREATE, ALTER, DROP, TRUNCATE ...
+
+COMMENT ON COLUMN EMPLOYEE.NAME IS '사원명';
+COMMENT ON COLUMN EMPLOYEE.T_CODE IS '직급코드';
+COMMENT ON COLUMN EMPLOYEE.D_CODE IS '부서코드';
+COMMENT ON COLUMN EMPLOYEE.AGE IS '나이';
+
+DESC EMPLOYEE;
+DESC USER_UNIQUE;
+DESC SHOP_MEMBER;
+DESC SHOP_BUY;
+
+
+
+
+
+
+
+
+
+
+
+
